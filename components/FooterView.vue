@@ -2,7 +2,7 @@
     <footer class="bg-gray-900 text-gray-300 py-8">
       <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
   
-        <!-- Logo and Social Links -->
+       
         <div>
           <div class="flex items-center mb-4">
             <img src="/images/logo.png" alt="GadgetKing Logo" class="h-10 mr-2" />
@@ -19,7 +19,7 @@
           </p>
         </div>
   
-        <!-- About Links -->
+       
         <div>
           <h3 class="text-white font-semibold mb-4">About</h3>
           <ul class="space-y-2">
@@ -32,7 +32,7 @@
           </ul>
         </div>
   
-        <!-- Info Links -->
+      
         <div>
           <h3 class="text-white font-semibold mb-4">Info</h3>
           <ul class="space-y-2">
@@ -44,7 +44,7 @@
           </ul>
         </div>
   
-        <!-- Contact Information -->
+        
         <div>
           <h3 class="text-white font-semibold mb-4">Contact Us</h3>
           <ul class="space-y-2 text-sm">
@@ -64,7 +64,7 @@
         </div>
       </div>
   
-      <!-- Footer Bottom -->
+
       <div class="border-t border-gray-700 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-sm">
         <p>© TechSun, 2024</p>
         <div class="flex space-x-4 mt-4 md:mt-0">
@@ -80,7 +80,7 @@
     </footer>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   // No special logic needed, static component
   </script>
   

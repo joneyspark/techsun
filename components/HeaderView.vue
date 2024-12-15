@@ -61,24 +61,24 @@
     </header>
   </template>
   
-  <script setup>
+  <script setup lang="ts">
   import { ref, onMounted, onUnmounted } from "vue";
   
-  // State to handle search visibility on small screens
+
   const isSearchOpen = ref(false);
   const isSmallScreen = ref(false);
   
-  // Function to toggle the search bar on small screens
+
   const toggleSearch = () => {
     isSearchOpen.value = !isSearchOpen.value;
   };
   
-  // Function to check screen size
+
   const handleResize = () => {
-    isSmallScreen.value = window.innerWidth < 768; // Set breakpoint for small screens
+    isSmallScreen.value = window.innerWidth < 768; 
   };
   
-  // Add event listener for window resize
+
   onMounted(() => {
     handleResize();
     window.addEventListener("resize", handleResize);
